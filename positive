@@ -6,6 +6,8 @@ printf("\n Enter the number");
 scanf("%d",&num);
 if(num>=0)
 printf("\n THE number is positive");
+elseif(num==0)
+printf("\n the number is zero");
 else
 printf("\n THe number is negative");
 }
